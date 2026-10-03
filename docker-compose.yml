@@ -1,0 +1,16 @@
+version: '3.8'
+
+services:
+  fraudshield:
+    build: .
+    ports:
+      - "3000:3000"
+    environment:
+      - PORT=3000
+      - NODE_ENV=production
+      - GEMINI_API_KEY=${GEMINI_API_KEY:-}
+      - BLOCKCHAIN_MODE=${BLOCKCHAIN_MODE:-SIMULATED}
+    volumes:
+      - ./data:/app/data
+      - ./reports:/app/reports
+    restart: unless-stopped
