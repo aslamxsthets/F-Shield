@@ -1,0 +1,6 @@
+{
+  "name": "F-Shield — Fraud Detection & Forensic Intelligence Platform",
+  "description": "Enterprise-grade shipping fraud screening, forensic topology intelligence, evidence chain verification, compliance reporting, and real-time risk decisioning.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

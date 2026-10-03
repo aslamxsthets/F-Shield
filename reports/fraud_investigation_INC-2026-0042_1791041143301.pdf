@@ -1,0 +1,473 @@
+%PDF-1.3
+%ºß¬à
+3 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/MediaBox [0 0 612. 792.]
+/Contents 4 0 R
+>>
+endobj
+4 0 obj
+<<
+/Length 5673
+>>
+stream
+0.200025 w
+0 G
+0.96 0.95 0.92 rg
+0. 792. 612. -80. re
+f
+BT
+/F2 18 Tf
+20.6999999999999993 TL
+0.761 0.255 0.047 rg
+40. 756. Td
+(FRAUDSHIELD FORENSIC INTELLIGENCE PLATFORM) Tj
+ET
+BT
+/F2 11 Tf
+12.6499999999999986 TL
+0.235 g
+40. 736. Td
+(OFFICIAL FRAUD INVESTIGATION & RISK RECONSTRUCTION DOSSIER) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0.235 g
+40. 722. Td
+(Generated: Sat, 03 Oct 2026 15:25:43 GMT | Report ID: RPT-FRAUD-MUSJNITD-B46E) Tj
+ET
+0.98 0.98 0.98 rg
+0.86 0.84 0.8 RG
+44. 687. m
+568. 687. l
+570.2091389993231587 687. 572. 685.2091389993231587 572. 683. c
+572. 616. l
+572. 613.7908610006768413 569.7908610006768413 612. 568. 612. c
+44. 612. l
+41.7908610006768271 612. 40. 614.2091389993231587 40. 616. c
+40. 683. l
+40. 685.2091389993231587 42.2091389993231729 687. 44. 687. c
+h
+B
+BT
+/F2 10 Tf
+11.5 TL
+0.118 g
+50. 669. Td
+(INCIDENT: INC-2026-0042 \(Status: OPEN\)) Tj
+ET
+BT
+/F1 9 Tf
+10.3499999999999996 TL
+0.118 g
+50. 653. Td
+(Booking Ref: FS-BK-9042 | Shipper: Nexus BioLogistics Pharma \(SHP-202\)) Tj
+ET
+BT
+/F1 9 Tf
+10.3499999999999996 TL
+0.118 g
+50. 639. Td
+(Decision: BLOCK | Risk Score: 92 / 100 | Severity: CRITICAL) Tj
+ET
+BT
+/F1 9 Tf
+10.3499999999999996 TL
+0.118 g
+50. 625. Td
+(Assigned Analyst: Marcus Sterling \(Senior Fraud Investigator\) | Fallback Level: LEVEL 1 — AI/ML DETECTION) Tj
+ET
+BT
+/F2 11 Tf
+12.6499999999999986 TL
+0.761 0.255 0.047 rg
+40. 592. Td
+(1. RISK COMPONENT BREAKDOWN \(0 - 100 NORMALIZED\)) Tj
+ET
+BT
+/F1 8.5 Tf
+9.7749999999999986 TL
+0.196 g
+40. 577. Td
+(Identity / Permission: 88   |   Behavioral Anomaly: 96   |   Shipment Anomaly: 94) Tj
+ET
+BT
+/F1 8.5 Tf
+9.7749999999999986 TL
+0.196 g
+40. 564. Td
+(Payment Risk: 92   |   Destination Risk: 85   |   Compliance Risk: 89) Tj
+ET
+BT
+/F1 8.5 Tf
+9.7749999999999986 TL
+0.196 g
+40. 551. Td
+(Composite Digital Trust Score: 18/100 | ML Anomaly Model: FS-IForest-v1.4 \(ACTIVE\)) Tj
+ET
+BT
+/F2 11 Tf
+12.6499999999999986 TL
+0.761 0.255 0.047 rg
+40. 529. Td
+(2. EVIDENCE SYNTHESIS & REASONING \(GENAI\)) Tj
+ET
+BT
+/F3 8.5 Tf
+9.7749999999999986 TL
+0.157 g
+40. 515. Td
+(Critical Risk Detected \(Score 92/100\): High-confidence account takeover and privilege abuse pattern. Observed booking weight \(180.0 kg\)) Tj
+T* (represents a 36.0x deviation from historical baseline \(5.0 kg\) and breaches the 40.0 kg permission ceiling. The transaction originated via an) Tj
+T* (untrusted Tor exit node \(DEV-999\) previously connected to blocked sybil entities, paired with an unverified offshore prepaid card under an) Tj
+T* (unrelated cardholder name. Immediate pre-shipment quarantine enforced.) Tj
+ET
+BT
+/F2 10 Tf
+11.5 TL
+0.157 g
+40. 461. Td
+(3. PRIVILEGE INTEGRITY: AUTHORIZED VS OBSERVED MATRIX) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0.157 g
+45. 447. Td
+(• Destination: Observed [DE-FRA-FRANKFURT] | Authorized [IN-BOM-MUMBAI, IN-CCU-KOLKATA, IN-MAA-CHENNAI] -> VIOLATION DETECTED) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0.157 g
+45. 436. Td
+(• Weight: Observed [180 kg] | Max Permitted [40 kg] -> EXCEEDED BY 36x) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0.157 g
+45. 425. Td
+(• Service Type: Observed [AIR_EXPRESS_PRIORITY] | Authorized [STANDARD_GROUND, COLD_CHAIN_STANDARD] -> RESTRICTED ROUTE) Tj
+ET
+BT
+/F2 11 Tf
+12.6499999999999986 TL
+0.761 0.255 0.047 rg
+40. 407. Td
+(4. RECONSTRUCTED ATTACK PATH & INCIDENT TIMELINE) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0.761 0.255 0.047 rg
+45. 393. Td
+([Step 1] 04:18:10: Account Session Established - Login authenticated for ACC-202 using valid API credential token) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0.761 0.255 0.047 rg
+45. 382. Td
+([Step 2] 04:19:02: New Hardware Device Observed - Request originated from unseen Linux fingerprint on Tor Exit Node AS60729 \(185.220.101.45\)) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0.761 0.255 0.047 rg
+45. 371. Td
+([Step 3] 04:20:45: Payment Method Injected - New prepaid card \(5312 •••• •••• 7714\) added under third-party name Viktor Kane) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0.761 0.255 0.047 rg
+45. 360. Td
+([Step 4] 04:21:30: Unauthorized Cross-Border Routing - Destination changed to Frankfurt Airport Cargo Hub DE-FRA-FRANKFURT \(Violates domestic-only permission profile\)) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0.761 0.255 0.047 rg
+45. 349. Td
+([Step 5] 04:22:15: Anomalous Booking Ingested - Consignment declared at 180.0 kg \(36x historical average of 5.0 kg\)) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0.761 0.255 0.047 rg
+45. 338. Td
+([Step 6] 04:22:19: Multi-Engine Risk Aggregation - Behavioral, permission, payment, and ML anomaly models triggered. Risk score calculated at 92/100.) Tj
+ET
+BT
+/F2 11 Tf
+12.6499999999999986 TL
+0.761 0.255 0.047 rg
+40. 315. Td
+(5. FORENSIC EVIDENCE CHAIN & BLOCKCHAIN ANCHOR) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0.761 0.255 0.047 rg
+45. 301. Td
+(• EVD-001-AUTH: SHA256[bc71eeb7af11ed8756cfe85c...] Prev[0000000000000000...]) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0.761 0.255 0.047 rg
+45. 290. Td
+(• EVD-002-DEVICE: SHA256[5a07ff7aee7ebc0deb01c314...] Prev[bc71eeb7af11ed87...]) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0.761 0.255 0.047 rg
+45. 279. Td
+(• EVD-003-PAYMENT: SHA256[dd1e59a4f4475a3b886a8ba0...] Prev[5a07ff7aee7ebc0d...]) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0.761 0.255 0.047 rg
+45. 264. Td
+(• Blockchain Proof \(SIMULATED\): Block #18498045 | Tx: 0xsim_a8680f44059dde245cb7820df3... State: ANCHORED) Tj
+ET
+0.78 G
+40. 52. m
+572. 52. l
+S
+BT
+/F1 7.5 Tf
+8.625 TL
+0.471 g
+40. 37. Td
+(FraudShield Cryptographic Forensic System | Built for Regulatory Audit & Pre-Shipment Interception) Tj
+ET
+BT
+/F1 7.5 Tf
+8.625 TL
+0.471 g
+40. 24. Td
+(This is an automated compliance & forensic intelligence record and is not a government-issued approval.) Tj
+ET
+endstream
+endobj
+1 0 obj
+<</Type /Pages
+/Kids [3 0 R ]
+/Count 1
+>>
+endobj
+5 0 obj
+<<
+/Type /Font
+/BaseFont /Helvetica
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+6 0 obj
+<<
+/Type /Font
+/BaseFont /Helvetica-Bold
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+7 0 obj
+<<
+/Type /Font
+/BaseFont /Helvetica-Oblique
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+8 0 obj
+<<
+/Type /Font
+/BaseFont /Helvetica-BoldOblique
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+9 0 obj
+<<
+/Type /Font
+/BaseFont /Courier
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+10 0 obj
+<<
+/Type /Font
+/BaseFont /Courier-Bold
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+11 0 obj
+<<
+/Type /Font
+/BaseFont /Courier-Oblique
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+12 0 obj
+<<
+/Type /Font
+/BaseFont /Courier-BoldOblique
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+13 0 obj
+<<
+/Type /Font
+/BaseFont /Times-Roman
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+14 0 obj
+<<
+/Type /Font
+/BaseFont /Times-Bold
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+15 0 obj
+<<
+/Type /Font
+/BaseFont /Times-Italic
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+16 0 obj
+<<
+/Type /Font
+/BaseFont /Times-BoldItalic
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+17 0 obj
+<<
+/Type /Font
+/BaseFont /ZapfDingbats
+/Subtype /Type1
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+18 0 obj
+<<
+/Type /Font
+/BaseFont /Symbol
+/Subtype /Type1
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+2 0 obj
+<<
+/ProcSet [/PDF /Text /ImageB /ImageC /ImageI]
+/Font <<
+/F1 5 0 R
+/F2 6 0 R
+/F3 7 0 R
+/F4 8 0 R
+/F5 9 0 R
+/F6 10 0 R
+/F7 11 0 R
+/F8 12 0 R
+/F9 13 0 R
+/F10 14 0 R
+/F11 15 0 R
+/F12 16 0 R
+/F13 17 0 R
+/F14 18 0 R
+>>
+/XObject <<
+>>
+>>
+endobj
+19 0 obj
+<<
+/Producer (jsPDF 4.2.1)
+/CreationDate (D:20261003152543-00'00')
+>>
+endobj
+20 0 obj
+<<
+/Type /Catalog
+/Pages 1 0 R
+/OpenAction [3 0 R /FitH null]
+/PageLayout /OneColumn
+>>
+endobj
+xref
+0 21
+0000000000 65535 f 
+0000005845 00000 n 
+0000007662 00000 n 
+0000000015 00000 n 
+0000000120 00000 n 
+0000005902 00000 n 
+0000006027 00000 n 
+0000006157 00000 n 
+0000006290 00000 n 
+0000006427 00000 n 
+0000006550 00000 n 
+0000006679 00000 n 
+0000006811 00000 n 
+0000006947 00000 n 
+0000007075 00000 n 
+0000007202 00000 n 
+0000007331 00000 n 
+0000007464 00000 n 
+0000007566 00000 n 
+0000007910 00000 n 
+0000007996 00000 n 
+trailer
+<<
+/Size 21
+/Root 20 0 R
+/Info 19 0 R
+/ID [ <811DB3934C99924E0A1CA5CB33C57313> <811DB3934C99924E0A1CA5CB33C57313> ]
+>>
+startxref
+8100
+%%EOF

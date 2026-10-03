@@ -1,0 +1,1935 @@
+{
+  "users": [
+    {
+      "id": "USR-01",
+      "name": "Dr. Sarah Vance",
+      "role": "ADMIN",
+      "email": "sarah.vance@fraudshield.internal",
+      "phone": "",
+      "username": "sarah.vance",
+      "password_hash": "$2b$10$ZY5YB8CNma8wpon7ZvnXPeefU6XCGndfX9ud.5BrLV07BGhyduVr."
+    },
+    {
+      "id": "USR-02",
+      "name": "Marcus Sterling",
+      "role": "FRAUD_ANALYST",
+      "email": "marcus.s@fraudshield.internal",
+      "phone": "",
+      "username": "marcus.s",
+      "password_hash": "$2b$10$ZY5YB8CNma8wpon7ZvnXPeefU6XCGndfX9ud.5BrLV07BGhyduVr."
+    },
+    {
+      "id": "USR-03",
+      "name": "Ananya Sharma",
+      "role": "COMPLIANCE_ANALYST",
+      "email": "ananya.s@fraudshield.internal",
+      "phone": "",
+      "username": "ananya.s",
+      "password_hash": "$2b$10$ZY5YB8CNma8wpon7ZvnXPeefU6XCGndfX9ud.5BrLV07BGhyduVr."
+    },
+    {
+      "id": "USR-04",
+      "name": "Robert Chen",
+      "role": "AUDITOR",
+      "email": "robert.chen@auditor.gov",
+      "phone": "",
+      "username": "robert.chen",
+      "password_hash": "$2b$10$ZY5YB8CNma8wpon7ZvnXPeefU6XCGndfX9ud.5BrLV07BGhyduVr."
+    },
+    {
+      "id": "USR-05",
+      "name": "Elena Rostova",
+      "role": "VIEWER",
+      "email": "elena.r@fraudshield.internal",
+      "phone": "",
+      "username": "elena.r",
+      "password_hash": "$2b$10$ZY5YB8CNma8wpon7ZvnXPeefU6XCGndfX9ud.5BrLV07BGhyduVr."
+    },
+    {
+      "id": "USR-c8049ecf-9aeb-4a1a-8c6d-0f9d17dbc6c8",
+      "name": "AJ",
+      "role": "ADMIN",
+      "email": "naanummalarum1827@gmail.com",
+      "phone": "9876543210",
+      "username": "aslamxsthets",
+      "totp_secret": "ygSGYnhRBS8t_zXl.MnJ2FbYUq2QAoBIw1OmPUA.0rO3OLAuaC6QoAnOnX2pnmg4nMY1TvVRhnCPYlaW_wc",
+      "password_hash": "$2b$12$1qLI81ioBd5kKOoGbYyj3eakAEF292FNtKth6zXfCK0aRsjlL.r2a"
+    }
+  ],
+  "devices": [
+    {
+      "id": "DEV-101",
+      "last_seen": "2026-10-02T10:14:00Z",
+      "ip_address": "103.21.58.42",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36",
+      "network_asn": "AS55836 Reliance Jio Infocomm",
+      "device_fingerprint": "fp_a7b8c9d0e1f2a3b4c5d6e7f8a9b0",
+      "associated_accounts": [
+        "ACC-101"
+      ],
+      "is_flagged_suspicious": false
+    },
+    {
+      "id": "DEV-202",
+      "last_seen": "2026-09-30T17:20:00Z",
+      "ip_address": "14.139.60.18",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36",
+      "network_asn": "AS4755 Tata Communications",
+      "device_fingerprint": "fp_nexus_known_macbook_corp_sec",
+      "associated_accounts": [
+        "ACC-202"
+      ],
+      "is_flagged_suspicious": false
+    },
+    {
+      "id": "DEV-999",
+      "last_seen": "2026-10-03T04:22:15Z",
+      "ip_address": "185.220.101.45",
+      "user_agent": "Mozilla/5.0 (X11; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/115.0",
+      "network_asn": "AS60729 Zwiebelfreunde e.V.",
+      "device_fingerprint": "fp_tor_exit_node_spoofed_linux_442",
+      "associated_accounts": [
+        "ACC-202",
+        "ACC-992"
+      ],
+      "is_flagged_suspicious": true,
+      "previously_blocked_link": "INC-2025-0819 (Cargo Intercepted)"
+    },
+    {
+      "id": "DEV-404",
+      "last_seen": "2026-10-01T08:11:00Z",
+      "ip_address": "45.154.255.89",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36",
+      "network_asn": "AS200052 Datacenter Proxy Services",
+      "device_fingerprint": "fp_sybil_linked_proxy_hardware_id",
+      "associated_accounts": [
+        "ACC-404",
+        "ACC-992"
+      ],
+      "is_flagged_suspicious": true,
+      "previously_blocked_link": "ACC-992 (Phantom Star Express)"
+    },
+    {
+      "id": "DEV-303",
+      "last_seen": "2026-10-02T16:00:00Z",
+      "ip_address": "49.207.214.10",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/129.0.0.0",
+      "network_asn": "AS24186 ACT Fibernet Bengaluru",
+      "device_fingerprint": "fp_solis_fresh_win11_laptop",
+      "associated_accounts": [
+        "ACC-303"
+      ],
+      "is_flagged_suspicious": false
+    }
+  ],
+  "reports": [
+    {
+      "id": "RPT-FRAUD-MUSJNITD-B46E",
+      "title": "Fraud Investigation Dossier — Incident INC-2026-0042",
+      "creator": "Senior Fraud Investigator (Automated Forensic Compiler)",
+      "filename": "fraud_investigation_INC-2026-0042_1791041143301.pdf",
+      "filepath": "/app/applet/reports/fraud_investigation_INC-2026-0042_1791041143301.pdf",
+      "booking_id": "BKG-2026-9042",
+      "created_at": "2026-10-03T15:25:43.317Z",
+      "incident_id": "INC-2026-0042",
+      "report_type": "FRAUD_INVESTIGATION",
+      "sha256_hash": "acf556ff230e2d792c481b0f8da84055d942b76e1a1bbcc4ca01d7e8ef774beb",
+      "download_url": "/api/v1/reports/download/fraud_investigation_INC-2026-0042_1791041143301.pdf",
+      "file_size_bytes": 8677
+    }
+  ],
+  "accounts": [
+    {
+      "id": "ACC-101",
+      "tier": "PREMIUM",
+      "status": "ACTIVE",
+      "created_at": "2023-04-12T09:00:00Z",
+      "shipper_id": "SHP-101",
+      "credit_limit": 50000,
+      "is_cold_start": false,
+      "account_number": "FS-ACC-88019"
+    },
+    {
+      "id": "ACC-202",
+      "tier": "ENTERPRISE",
+      "status": "ACTIVE",
+      "created_at": "2022-08-19T10:30:00Z",
+      "shipper_id": "SHP-202",
+      "credit_limit": 100000,
+      "is_cold_start": false,
+      "account_number": "FS-ACC-44912"
+    },
+    {
+      "id": "ACC-303",
+      "tier": "STANDARD",
+      "status": "ACTIVE",
+      "created_at": "2026-09-28T14:15:00Z",
+      "shipper_id": "SHP-303",
+      "credit_limit": 15000,
+      "is_cold_start": true,
+      "account_number": "FS-ACC-11002"
+    },
+    {
+      "id": "ACC-404",
+      "tier": "STANDARD",
+      "status": "ACTIVE",
+      "created_at": "2025-11-10T11:00:00Z",
+      "shipper_id": "SHP-404",
+      "credit_limit": 20000,
+      "is_cold_start": false,
+      "account_number": "FS-ACC-77341"
+    },
+    {
+      "id": "ACC-992",
+      "tier": "STANDARD",
+      "status": "BLOCKED",
+      "created_at": "2025-01-05T08:00:00Z",
+      "shipper_id": "SHP-999",
+      "credit_limit": 0,
+      "is_cold_start": false,
+      "account_number": "FS-ACC-99201"
+    }
+  ],
+  "bookings": [
+    {
+      "id": "BKG-MUSJNIL0-EU4I",
+      "origin": "IN-DEL-DELHI",
+      "status": "BLOCKED",
+      "device_id": "DEV-999",
+      "weight_kg": 180,
+      "account_id": "ACC-202",
+      "created_at": "2026-10-03T15:25:42.996Z",
+      "payment_id": "PM-888",
+      "shipper_id": "SHP-202",
+      "destination": "DE-FRA-FRANKFURT",
+      "service_type": "AIR_EXPRESS_PRIORITY",
+      "package_category": "CHEMICALS_HIGH_DENSITY",
+      "booking_reference": "FS-BK-5255",
+      "booking_timestamp": "2026-10-03T15:25:42.996Z",
+      "declared_value_inr": 2800000,
+      "declared_value_usd": 33735
+    },
+    {
+      "id": "BKG-MUSJNI14-7TBC",
+      "origin": "IN-BOM-MUMBAI",
+      "status": "PROCESSED",
+      "device_id": "DEV-101",
+      "weight_kg": 5.4,
+      "account_id": "ACC-101",
+      "created_at": "2026-10-03T15:25:42.280Z",
+      "payment_id": "PM-101",
+      "shipper_id": "SHP-101",
+      "destination": "IN-BLR-BENGALURU",
+      "service_type": "STANDARD_GROUND",
+      "package_category": "MACHINERY_PARTS",
+      "booking_reference": "FS-BK-8735",
+      "booking_timestamp": "2026-10-03T15:25:42.280Z",
+      "declared_value_inr": 18900,
+      "declared_value_usd": 228
+    },
+    {
+      "id": "BKG-2026-1001",
+      "origin": "IN-BOM-MUMBAI",
+      "status": "PROCESSED",
+      "device_id": "DEV-101",
+      "weight_kg": 5.4,
+      "account_id": "ACC-101",
+      "created_at": "2026-10-02T10:14:00Z",
+      "payment_id": "PM-101",
+      "shipper_id": "SHP-101",
+      "destination": "IN-BLR-BENGALURU",
+      "service_type": "STANDARD_GROUND",
+      "package_category": "MACHINERY_PARTS",
+      "booking_reference": "FS-BK-1001",
+      "booking_timestamp": "2026-10-02T10:14:00Z",
+      "declared_value_inr": 70000,
+      "declared_value_usd": 850
+    },
+    {
+      "id": "BKG-2026-9042",
+      "origin": "IN-DEL-DELHI",
+      "status": "BLOCKED",
+      "device_id": "DEV-999",
+      "weight_kg": 180,
+      "account_id": "ACC-202",
+      "created_at": "2026-10-03T04:22:15Z",
+      "payment_id": "PM-888",
+      "shipper_id": "SHP-202",
+      "destination": "DE-FRA-FRANKFURT",
+      "service_type": "AIR_EXPRESS_PRIORITY",
+      "package_category": "CHEMICALS_HIGH_DENSITY",
+      "booking_reference": "FS-BK-9042",
+      "booking_timestamp": "2026-10-03T04:22:15Z",
+      "declared_value_inr": 2800000,
+      "declared_value_usd": 35000
+    }
+  ],
+  "settings": {
+    "features": {
+      "ml_enabled": true,
+      "genai_enabled": true,
+      "blockchain_mode": "SIMULATED",
+      "strict_cold_start": false
+    },
+    "thresholds": {
+      "hold_max": 69,
+      "allow_max": 29,
+      "block_min": 70
+    },
+    "risk_weights": {
+      "payment_risk": 0.15,
+      "behavior_anomaly": 0.2,
+      "destination_risk": 0.1,
+      "shipment_anomaly": 0.2,
+      "policy_compliance": 0.15,
+      "identity_permission": 0.2
+    },
+    "fallback_policy": "AUTO",
+    "system_metadata": {
+      "version": "F-Shield Core v2.4.0",
+      "environment": "production-ready-preview",
+      "last_reloaded": "2026-10-03T15:00:34.348Z"
+    }
+  },
+  "shippers": [
+    {
+      "id": "SHP-101",
+      "email": "logistics@apexprecision.in",
+      "phone": "+91-22-2847-1100",
+      "status": "ACTIVE",
+      "country": "India",
+      "created_at": "2023-04-12T09:00:00Z",
+      "kyc_status": "VERIFIED",
+      "trust_score": 94,
+      "company_name": "Apex Precision Tools Ltd",
+      "max_weight_kg": 18,
+      "common_origins": [
+        "IN-BOM-MUMBAI",
+        "IN-PNQ-PUNE"
+      ],
+      "total_bookings": 149,
+      "average_weight_kg": 5.4,
+      "verified_identity": true,
+      "common_destinations": [
+        "IN-BLR-BENGALURU",
+        "IN-DEL-DELHI",
+        "IN-HYD-HYDERABAD"
+      ],
+      "historical_incidents_count": 0
+    },
+    {
+      "id": "SHP-202",
+      "email": "ops@nexusbio.com",
+      "phone": "+91-11-4560-8900",
+      "status": "FLAGGED",
+      "country": "India",
+      "created_at": "2022-08-19T10:30:00Z",
+      "kyc_status": "VERIFIED",
+      "trust_score": 33,
+      "company_name": "Nexus BioLogistics Pharma",
+      "max_weight_kg": 180,
+      "common_origins": [
+        "IN-DEL-DELHI",
+        "IN-BOM-MUMBAI"
+      ],
+      "total_bookings": 86,
+      "average_weight_kg": 180,
+      "verified_identity": true,
+      "common_destinations": [
+        "IN-BOM-MUMBAI",
+        "IN-CCU-KOLKATA",
+        "IN-MAA-CHENNAI",
+        "DE-FRA-FRANKFURT"
+      ],
+      "historical_incidents_count": 2
+    },
+    {
+      "id": "SHP-303",
+      "email": "supply@solisrobotics.io",
+      "phone": "+91-80-6710-4422",
+      "status": "ACTIVE",
+      "country": "India",
+      "created_at": "2026-09-28T14:15:00Z",
+      "kyc_status": "VERIFIED",
+      "trust_score": 72,
+      "company_name": "Solis Robotics Inc",
+      "max_weight_kg": 8.5,
+      "common_origins": [
+        "IN-BLR-BENGALURU"
+      ],
+      "total_bookings": 1,
+      "average_weight_kg": 8.5,
+      "verified_identity": true,
+      "common_destinations": [
+        "IN-HYD-HYDERABAD"
+      ],
+      "historical_incidents_count": 0
+    },
+    {
+      "id": "SHP-404",
+      "email": "dispatch@orionfreight.net",
+      "phone": "+91-44-2499-5500",
+      "status": "FLAGGED",
+      "country": "India",
+      "created_at": "2025-11-10T11:00:00Z",
+      "kyc_status": "PENDING",
+      "trust_score": 41,
+      "company_name": "Orion Freight Logistics",
+      "max_weight_kg": 65,
+      "common_origins": [
+        "IN-MAA-CHENNAI"
+      ],
+      "total_bookings": 12,
+      "average_weight_kg": 24,
+      "verified_identity": false,
+      "common_destinations": [
+        "IN-COK-KOCHI",
+        "IN-BLR-BENGALURU"
+      ],
+      "historical_incidents_count": 2
+    },
+    {
+      "id": "SHP-999",
+      "email": "contact@phantom-sybil.org",
+      "phone": "+91-99-8800-1122",
+      "status": "BLOCKED",
+      "country": "India",
+      "created_at": "2025-01-05T08:00:00Z",
+      "kyc_status": "REJECTED",
+      "trust_score": 8,
+      "company_name": "Phantom Star Express (Blocked Sybil)",
+      "max_weight_kg": 260,
+      "common_origins": [
+        "IN-DEL-DELHI"
+      ],
+      "total_bookings": 6,
+      "average_weight_kg": 140,
+      "verified_identity": false,
+      "common_destinations": [
+        "DE-FRA-FRANKFURT",
+        "AE-DXB-DUBAI"
+      ],
+      "historical_incidents_count": 4
+    }
+  ],
+  "incidents": [
+    {
+      "id": "INC-2026-4976",
+      "status": "OPEN",
+      "decision": "BLOCK",
+      "severity": "HIGH",
+      "booking_id": "BKG-MUSJNIL0-EU4I",
+      "created_at": "2026-10-03T15:25:43.278Z",
+      "risk_score": 78,
+      "shipper_id": "SHP-202",
+      "updated_at": "2026-10-03T15:25:43.278Z",
+      "assigned_to": "Marcus Sterling (Senior Fraud Investigator)",
+      "evidence_ids": [
+        "EVD-MUSJNIST-67DF50",
+        "EVD-MUSJNIST-DFB269",
+        "EVD-MUSJNISU-1E3334"
+      ],
+      "incident_number": "INC-2026-4976",
+      "triggered_rules": [
+        "WEIGHT_ANOMALY_EXTREME",
+        "BEHAVIORAL_UNUSUAL_DESTINATION",
+        "PRIVILEGE_ABUSE_INTERNATIONAL_DESTINATION",
+        "PRIVILEGE_ABUSE_WEIGHT_CEILING_BREACH",
+        "SERVICE_TIER_MISMATCH",
+        "PAYMENT_RISK_FLAG_ACTIVE",
+        "PAYMENT_BENEFICIARY_MISMATCH",
+        "DEVICE_LINKED_TO_SUSPICIOUS_INFRASTRUCTURE",
+        "ANONYMIZED_NETWORK_TOR_PROXY",
+        "HAZARDOUS_CARGO_SENSITIVITY"
+      ],
+      "attack_path_node_ids": [
+        "SHP-202",
+        "ACC-202",
+        "DEV-999",
+        "PM-888",
+        "BKG-MUSJNIL0-EU4I",
+        "RSK-MUSJNISQ-D0LZ",
+        "INC-2026-4976"
+      ]
+    },
+    {
+      "id": "INC-2026-0042",
+      "status": "OPEN",
+      "decision": "BLOCK",
+      "severity": "CRITICAL",
+      "booking_id": "BKG-2026-9042",
+      "created_at": "2026-10-03T04:22:21Z",
+      "risk_score": 92,
+      "shipper_id": "SHP-202",
+      "updated_at": "2026-10-03T04:22:21Z",
+      "assigned_to": "Marcus Sterling (Senior Fraud Investigator)",
+      "evidence_ids": [
+        "EVD-001-AUTH",
+        "EVD-002-DEVICE",
+        "EVD-003-PAYMENT",
+        "EVD-004-RISK"
+      ],
+      "incident_number": "INC-2026-0042",
+      "triggered_rules": [
+        "WEIGHT_ANOMALY_EXTREME",
+        "PERMISSION_VIOLATION_INTERNATIONAL",
+        "DEVICE_LINKED_TO_SUSPICIOUS_NETWORK",
+        "PAYMENT_CARDHOLDER_MISMATCH",
+        "REGULATORY_CUSTOMS_INTERCEPT"
+      ],
+      "attack_path_node_ids": [
+        "SHP-202",
+        "ACC-202",
+        "DEV-999",
+        "PM-888",
+        "BKG-2026-9042",
+        "RSK-9042",
+        "DEC-BLOCK-9042",
+        "INC-2026-0042"
+      ]
+    }
+  ],
+  "auditEvents": [
+    {
+      "id": "AUD-MUSYZKKI-BX77",
+      "action": "USER_LOGIN",
+      "result": "SUCCESS",
+      "timestamp": "2026-10-03T22:34:59.682Z",
+      "actor_name": "AJ",
+      "actor_role": "ADMIN",
+      "ip_address": "127.0.0.1",
+      "resource_id": "USR-c8049ecf-9aeb-4a1a-8c6d-0f9d17dbc6c8",
+      "resource_type": "AUTH"
+    },
+    {
+      "id": "AUD-MUSYYPY6-6OZU",
+      "action": "USER_LOGOUT",
+      "result": "SUCCESS",
+      "timestamp": "2026-10-03T22:34:19.998Z",
+      "actor_name": "AJ",
+      "actor_role": "VIEWER",
+      "ip_address": "127.0.0.1",
+      "resource_id": "USR-c8049ecf-9aeb-4a1a-8c6d-0f9d17dbc6c8",
+      "resource_type": "AUTH"
+    },
+    {
+      "id": "AUD-MUSUBZQ0-O2A6",
+      "action": "USER_LOGIN",
+      "result": "SUCCESS",
+      "timestamp": "2026-10-03T20:24:41.112Z",
+      "actor_name": "AJ",
+      "actor_role": "VIEWER",
+      "ip_address": "127.0.0.1",
+      "resource_id": "USR-c8049ecf-9aeb-4a1a-8c6d-0f9d17dbc6c8",
+      "resource_type": "AUTH"
+    },
+    {
+      "id": "AUD-MUSUAI3A-RAAT",
+      "action": "USER_LOGOUT",
+      "result": "SUCCESS",
+      "timestamp": "2026-10-03T20:23:31.606Z",
+      "actor_name": "Dr. Sarah Vance",
+      "actor_role": "ADMIN",
+      "ip_address": "127.0.0.1",
+      "resource_id": "USR-01",
+      "resource_type": "AUTH"
+    },
+    {
+      "id": "AUD-MUST83MO-I28O",
+      "action": "USER_LOGIN",
+      "result": "SUCCESS",
+      "timestamp": "2026-10-03T19:53:39.936Z",
+      "actor_name": "AJ",
+      "actor_role": "VIEWER",
+      "ip_address": "127.0.0.1",
+      "resource_id": "USR-c8049ecf-9aeb-4a1a-8c6d-0f9d17dbc6c8",
+      "resource_type": "AUTH"
+    },
+    {
+      "id": "AUD-MUSR2D0W-4374",
+      "action": "USER_LOGIN",
+      "result": "SUCCESS",
+      "timestamp": "2026-10-03T18:53:12.944Z",
+      "actor_name": "AJ",
+      "actor_role": "VIEWER",
+      "ip_address": "127.0.0.1",
+      "resource_id": "USR-c8049ecf-9aeb-4a1a-8c6d-0f9d17dbc6c8",
+      "resource_type": "AUTH"
+    },
+    {
+      "id": "AUD-MUSR18G5-5BAT",
+      "action": "USER_LOGOUT",
+      "result": "SUCCESS",
+      "timestamp": "2026-10-03T18:52:20.357Z",
+      "actor_name": "AJ",
+      "actor_role": "VIEWER",
+      "ip_address": "127.0.0.1",
+      "resource_id": "USR-c8049ecf-9aeb-4a1a-8c6d-0f9d17dbc6c8",
+      "resource_type": "AUTH"
+    },
+    {
+      "id": "AUD-MUSQ0W2F-35WS",
+      "action": "USER_LOGIN",
+      "result": "SUCCESS",
+      "timestamp": "2026-10-03T18:24:04.695Z",
+      "actor_name": "Dr. Sarah Vance",
+      "actor_role": "ADMIN",
+      "ip_address": "127.0.0.1",
+      "resource_id": "USR-01",
+      "resource_type": "AUTH"
+    },
+    {
+      "id": "AUD-MUSPWI15-NE9Z",
+      "action": "USER_LOGIN",
+      "result": "SUCCESS",
+      "timestamp": "2026-10-03T18:20:39.881Z",
+      "actor_name": "AJ",
+      "actor_role": "VIEWER",
+      "ip_address": "127.0.0.1",
+      "resource_id": "USR-c8049ecf-9aeb-4a1a-8c6d-0f9d17dbc6c8",
+      "resource_type": "AUTH"
+    },
+    {
+      "id": "AUD-MUSPVSB4-FFXG",
+      "action": "USER_LOGOUT",
+      "result": "SUCCESS",
+      "timestamp": "2026-10-03T18:20:06.544Z",
+      "actor_name": "AJ",
+      "actor_role": "VIEWER",
+      "ip_address": "127.0.0.1",
+      "resource_id": "USR-c8049ecf-9aeb-4a1a-8c6d-0f9d17dbc6c8",
+      "resource_type": "AUTH"
+    },
+    {
+      "id": "AUD-MUSPVIPE-7VF6",
+      "action": "USER_LOGIN",
+      "result": "SUCCESS",
+      "timestamp": "2026-10-03T18:19:54.098Z",
+      "actor_name": "AJ",
+      "actor_role": "VIEWER",
+      "ip_address": "127.0.0.1",
+      "resource_id": "USR-c8049ecf-9aeb-4a1a-8c6d-0f9d17dbc6c8",
+      "resource_type": "AUTH"
+    },
+    {
+      "id": "AUD-MUSOZ0D4-0RM0",
+      "action": "USER_LOGIN",
+      "result": "SUCCESS",
+      "details": {
+        "role": "ADMIN"
+      },
+      "timestamp": "2026-10-03T17:54:37.336Z",
+      "actor_name": "Dr. Sarah Vance",
+      "actor_role": "ADMIN",
+      "ip_address": "127.0.0.1",
+      "resource_id": "USR-01",
+      "resource_type": "AUTH"
+    },
+    {
+      "id": "AUD-MUSOT2U8-9ZAE",
+      "action": "USER_LOGIN",
+      "result": "SUCCESS",
+      "details": {
+        "role": "ADMIN"
+      },
+      "timestamp": "2026-10-03T17:50:00.608Z",
+      "actor_name": "Dr. Sarah Vance",
+      "actor_role": "ADMIN",
+      "ip_address": "127.0.0.1",
+      "resource_id": "USR-01",
+      "resource_type": "AUTH"
+    },
+    {
+      "id": "AUD-MUSOSW5O-HKMT",
+      "action": "USER_LOGIN",
+      "result": "SUCCESS",
+      "details": {
+        "role": "ADMIN"
+      },
+      "timestamp": "2026-10-03T17:49:51.948Z",
+      "actor_name": "Dr. Sarah Vance",
+      "actor_role": "ADMIN",
+      "ip_address": "127.0.0.1",
+      "resource_id": "USR-01",
+      "resource_type": "AUTH"
+    },
+    {
+      "id": "AUD-MUSNFGVD-90XY",
+      "action": "USER_LOGIN",
+      "result": "SUCCESS",
+      "details": {
+        "role": "ADMIN"
+      },
+      "timestamp": "2026-10-03T17:11:25.993Z",
+      "actor_name": "Dr. Sarah Vance",
+      "actor_role": "ADMIN",
+      "ip_address": "127.0.0.1",
+      "resource_id": "USR-01",
+      "resource_type": "AUTH"
+    },
+    {
+      "id": "AUD-MUSJNITX-RP2O",
+      "action": "REPORT_GENERATED_FRAUD_DOSSIER",
+      "result": "SUCCESS",
+      "details": {
+        "hash": "acf556ff230e2d792c481b0f8da84055d942b76e1a1bbcc4ca01d7e8ef774beb",
+        "filename": "fraud_investigation_INC-2026-0042_1791041143301.pdf"
+      },
+      "timestamp": "2026-10-03T15:25:43.317Z",
+      "actor_name": "Marcus Sterling",
+      "actor_role": "FRAUD_ANALYST",
+      "ip_address": "127.0.0.1",
+      "resource_id": "RPT-FRAUD-MUSJNITD-B46E",
+      "resource_type": "REPORT"
+    },
+    {
+      "id": "AUD-MUSJNIT2-MASQ",
+      "action": "BLOCKCHAIN_ANCHOR_CREATED",
+      "result": "SUCCESS",
+      "details": {
+        "mode": "SIMULATED",
+        "tx_id": "0xsim_a8680f44059dde245cb7820df3eb792c749868b766fbf54c15cd9d161ca4e0b0",
+        "block_number": 18498045
+      },
+      "timestamp": "2026-10-03T15:25:43.286Z",
+      "actor_name": "Marcus Sterling",
+      "actor_role": "FRAUD_ANALYST",
+      "ip_address": "127.0.0.1",
+      "resource_id": "BCA-MUSJNIT1-0B21A2",
+      "resource_type": "BLOCKCHAIN_ANCHOR"
+    },
+    {
+      "id": "AUD-MUSJNISV-JAI1",
+      "action": "BOOKING_SCREENED",
+      "result": "SUCCESS",
+      "details": {
+        "decision": "BLOCK",
+        "shipper_id": "SHP-202",
+        "booking_ref": "FS-BK-5255",
+        "final_score": 78,
+        "incident_id": "INC-2026-4976",
+        "signals_count": 10,
+        "fallback_level": "LEVEL 1 — AI/ML DETECTION"
+      },
+      "timestamp": "2026-10-03T15:25:43.279Z",
+      "actor_name": "FraudShield Automated Pipeline",
+      "actor_role": "FRAUD_ANALYST",
+      "ip_address": "185.220.101.45",
+      "resource_id": "BKG-MUSJNIL0-EU4I",
+      "resource_type": "BOOKING"
+    },
+    {
+      "id": "AUD-MUSJNIKS-W9BG",
+      "action": "BOOKING_SCREENED",
+      "result": "SUCCESS",
+      "details": {
+        "decision": "ALLOW",
+        "shipper_id": "SHP-101",
+        "booking_ref": "FS-BK-8735",
+        "final_score": 5,
+        "signals_count": 0,
+        "fallback_level": "LEVEL 1 — AI/ML DETECTION"
+      },
+      "timestamp": "2026-10-03T15:25:42.988Z",
+      "actor_name": "FraudShield Automated Pipeline",
+      "actor_role": "FRAUD_ANALYST",
+      "ip_address": "103.21.58.42",
+      "resource_id": "BKG-MUSJNI14-7TBC",
+      "resource_type": "BOOKING"
+    },
+    {
+      "id": "AUD-MUSJNI0X-QS3N",
+      "action": "EVIDENCE_VERIFIED",
+      "result": "FAILED",
+      "details": {
+        "tamper_detected": true,
+        "verification_result": "HASH_MISMATCH"
+      },
+      "timestamp": "2026-10-03T15:25:42.273Z",
+      "actor_name": "Marcus Sterling",
+      "actor_role": "FRAUD_ANALYST",
+      "ip_address": "127.0.0.1",
+      "resource_id": "EVD-004-RISK",
+      "resource_type": "EVIDENCE"
+    },
+    {
+      "id": "AUD-MUSJNI0R-8AYE",
+      "action": "EVIDENCE_VERIFIED",
+      "result": "SUCCESS",
+      "details": {
+        "tamper_detected": false,
+        "verification_result": "HASH_MATCH"
+      },
+      "timestamp": "2026-10-03T15:25:42.267Z",
+      "actor_name": "Marcus Sterling",
+      "actor_role": "FRAUD_ANALYST",
+      "ip_address": "127.0.0.1",
+      "resource_id": "EVD-004-RISK",
+      "resource_type": "EVIDENCE"
+    },
+    {
+      "id": "AUD-MUSJNI0N-337W",
+      "action": "DEMO_DATA_RESET",
+      "result": "SUCCESS",
+      "details": {
+        "message": "Reset database to pristine calibrated demo scenarios."
+      },
+      "timestamp": "2026-10-03T15:25:42.263Z",
+      "actor_name": "Marcus Sterling",
+      "actor_role": "FRAUD_ANALYST",
+      "ip_address": "127.0.0.1",
+      "resource_id": "DATABASE",
+      "resource_type": "SYSTEM"
+    },
+    {
+      "id": "AUD-001",
+      "action": "SYSTEM_BOOTSTRAP",
+      "result": "SUCCESS",
+      "details": {
+        "message": "Database initialized with calibrated fraud detection models and compliance rules."
+      },
+      "timestamp": "2026-10-01T08:00:00Z",
+      "actor_name": "Dr. Sarah Vance",
+      "actor_role": "ADMIN",
+      "ip_address": "10.0.4.1",
+      "resource_id": "FRAUDSHIELD_CORE",
+      "resource_type": "SYSTEM"
+    },
+    {
+      "id": "AUD-002",
+      "action": "BOOKING_SCREENED",
+      "result": "SUCCESS",
+      "details": {
+        "score": 6,
+        "decision": "ALLOW"
+      },
+      "timestamp": "2026-10-02T10:14:05Z",
+      "actor_name": "System Worker",
+      "actor_role": "ADMIN",
+      "ip_address": "103.21.58.42",
+      "resource_id": "BKG-2026-1001",
+      "resource_type": "BOOKING"
+    },
+    {
+      "id": "AUD-003",
+      "action": "PRE_SHIPMENT_BLOCK_ENFORCED",
+      "result": "SUCCESS",
+      "details": {
+        "score": 92,
+        "decision": "BLOCK",
+        "incident_id": "INC-2026-0042"
+      },
+      "timestamp": "2026-10-03T04:22:20Z",
+      "actor_name": "System Quarantine Engine",
+      "actor_role": "FRAUD_ANALYST",
+      "ip_address": "185.220.101.45",
+      "resource_id": "BKG-2026-9042",
+      "resource_type": "BOOKING"
+    },
+    {
+      "id": "AUD-004",
+      "action": "EVIDENCE_ANCHORED_BLOCKCHAIN",
+      "result": "SUCCESS",
+      "details": {
+        "mode": "SIMULATED",
+        "block_number": 18491024
+      },
+      "timestamp": "2026-10-03T04:23:00Z",
+      "actor_name": "System Cryptographer",
+      "actor_role": "ADMIN",
+      "ip_address": "127.0.0.1",
+      "resource_id": "BCA-0042",
+      "resource_type": "BLOCKCHAIN_ANCHOR"
+    }
+  ],
+  "evidenceList": [
+    {
+      "id": "EVD-001-AUTH",
+      "creator": "Identity Verification Subsystem",
+      "booking_id": "BKG-2026-9042",
+      "created_at": "2026-10-03T04:18:10Z",
+      "incident_id": "INC-2026-0042",
+      "is_tampered": false,
+      "content_data": {
+        "ip": "185.220.101.45",
+        "time": "2026-10-03T04:18:10Z",
+        "event": "AUTH_SESSION",
+        "account": "ACC-202"
+      },
+      "current_hash": "bc71eeb7af11ed8756cfe85c454bc4b090cefd65553898f0ed79935af9afedf0",
+      "source_event": "Account Authentication Session",
+      "previous_hash": "0000000000000000000000000000000000000000000000000000000000000000",
+      "source_system": "FraudShield Identity Gateway"
+    },
+    {
+      "id": "EVD-002-DEVICE",
+      "creator": "Network Forensics Subsystem",
+      "booking_id": "BKG-2026-9042",
+      "created_at": "2026-10-03T04:19:02Z",
+      "incident_id": "INC-2026-0042",
+      "is_tampered": false,
+      "content_data": {
+        "asn": "AS60729",
+        "event": "DEVICE_OBSERVED",
+        "device": "DEV-999",
+        "fingerprint": "fp_tor_exit_node_spoofed_linux_442"
+      },
+      "current_hash": "5a07ff7aee7ebc0deb01c314facc67838bdae7f0355b2aa43ada2006e60c5250",
+      "source_event": "Device & Network Telemetry Capture",
+      "previous_hash": "bc71eeb7af11ed8756cfe85c454bc4b090cefd65553898f0ed79935af9afedf0",
+      "source_system": "FraudShield Topology Sniffer"
+    },
+    {
+      "id": "EVD-003-PAYMENT",
+      "creator": "Payment Risk Subsystem",
+      "booking_id": "BKG-2026-9042",
+      "created_at": "2026-10-03T04:20:45Z",
+      "incident_id": "INC-2026-0042",
+      "is_tampered": false,
+      "content_data": {
+        "event": "PAYMENT_ADDED",
+        "cardholder": "Viktor Kane",
+        "payment_id": "PM-888",
+        "issuer_country": "CY"
+      },
+      "current_hash": "dd1e59a4f4475a3b886a8ba083828bb259ca2714743e2ba2480c034ef21cc645",
+      "source_event": "Payment Risk Inspection",
+      "previous_hash": "5a07ff7aee7ebc0deb01c314facc67838bdae7f0355b2aa43ada2006e60c5250",
+      "source_system": "FraudShield Payment Gateway Broker"
+    },
+    {
+      "id": "EVD-004-RISK",
+      "creator": "Automated Quarantine Pipeline",
+      "booking_id": "BKG-2026-9042",
+      "created_at": "2026-10-03T04:22:20Z",
+      "incident_id": "INC-2026-0042",
+      "is_tampered": false,
+      "content_data": {
+        "event": "FRAUD_BLOCK_DECISION",
+        "score": 92,
+        "weight": 180,
+        "booking": "BKG-2026-9042",
+        "decision": "BLOCK",
+        "tamper_marker": "TAMPERED_AT_1791041142270"
+      },
+      "current_hash": "dc2de2b9d3a67da55a710984cb0caf0448aa08ec8ad55813c59dc966b12c25c0",
+      "source_event": "Risk Scoring & Quarantine Decision",
+      "previous_hash": "dd1e59a4f4475a3b886a8ba083828bb259ca2714743e2ba2480c034ef21cc645",
+      "source_system": "FraudShield Core Decision Engine"
+    },
+    {
+      "id": "EVD-MUSJNIST-67DF50",
+      "creator": "Identity Subsystem",
+      "booking_id": "BKG-MUSJNIL0-EU4I",
+      "created_at": "2026-10-03T15:25:43.277Z",
+      "incident_id": "INC-2026-4976",
+      "is_tampered": false,
+      "content_data": {
+        "weight_kg": 180,
+        "account_id": "ACC-202",
+        "booking_id": "BKG-MUSJNIL0-EU4I",
+        "shipper_id": "SHP-202"
+      },
+      "current_hash": "c9bfb2a3c4b74473e721a04421594415e531c5de81901aeea721feb42981ffcb",
+      "source_event": "Booking Ingestion & Authentication",
+      "previous_hash": "dc2de2b9d3a67da55a710984cb0caf0448aa08ec8ad55813c59dc966b12c25c0",
+      "source_system": "FraudShield Ingestion API"
+    },
+    {
+      "id": "EVD-MUSJNIST-DFB269",
+      "creator": "Device Forensics",
+      "booking_id": "BKG-MUSJNIL0-EU4I",
+      "created_at": "2026-10-03T15:25:43.277Z",
+      "incident_id": "INC-2026-4976",
+      "is_tampered": false,
+      "content_data": {
+        "ip": "185.220.101.45",
+        "asn": "AS60729 Zwiebelfreunde e.V.",
+        "device_id": "DEV-999",
+        "fingerprint": "fp_tor_exit_node_spoofed_linux_442"
+      },
+      "current_hash": "f19710a75fbbb4b04ea01ef5d71f949b5820d3fd80bb41b8513bd63914c63ef5",
+      "source_event": "Hardware & Network Telemetry",
+      "previous_hash": "c9bfb2a3c4b74473e721a04421594415e531c5de81901aeea721feb42981ffcb",
+      "source_system": "FraudShield Device Intelligence"
+    },
+    {
+      "id": "EVD-MUSJNISU-1E3334",
+      "creator": "Decision Subsystem",
+      "booking_id": "BKG-MUSJNIL0-EU4I",
+      "created_at": "2026-10-03T15:25:43.278Z",
+      "incident_id": "INC-2026-4976",
+      "is_tampered": false,
+      "content_data": {
+        "decision": "BLOCK",
+        "fallback": "LEVEL 1 — AI/ML DETECTION",
+        "triggers": [
+          "WEIGHT_ANOMALY_EXTREME",
+          "BEHAVIORAL_UNUSUAL_DESTINATION",
+          "PRIVILEGE_ABUSE_INTERNATIONAL_DESTINATION",
+          "PRIVILEGE_ABUSE_WEIGHT_CEILING_BREACH",
+          "SERVICE_TIER_MISMATCH",
+          "PAYMENT_RISK_FLAG_ACTIVE",
+          "PAYMENT_BENEFICIARY_MISMATCH",
+          "DEVICE_LINKED_TO_SUSPICIOUS_INFRASTRUCTURE",
+          "ANONYMIZED_NETWORK_TOR_PROXY",
+          "HAZARDOUS_CARGO_SENSITIVITY"
+        ],
+        "risk_score": 78
+      },
+      "current_hash": "137d761b3579a44623179ec6bc3490b2de5f6fb5360e3f17418d38fc2e35ecd0",
+      "source_event": "Risk Engine Decision & Quarantine",
+      "previous_hash": "f19710a75fbbb4b04ea01ef5d71f949b5820d3fd80bb41b8513bd63914c63ef5",
+      "source_system": "FraudShield Core Decision Engine"
+    }
+  ],
+  "incidentEvents": [
+    {
+      "id": "EVT-01",
+      "title": "Account Session Established",
+      "entity_id": "ACC-202",
+      "timestamp": "2026-10-03T04:18:10Z",
+      "event_type": "AUTH",
+      "risk_delta": 0,
+      "step_order": 1,
+      "description": "Login authenticated for ACC-202 using valid API credential token",
+      "entity_type": "ACCOUNT",
+      "incident_id": "INC-2026-0042"
+    },
+    {
+      "id": "EVT-02",
+      "title": "New Hardware Device Observed",
+      "entity_id": "DEV-999",
+      "timestamp": "2026-10-03T04:19:02Z",
+      "event_type": "DEVICE",
+      "risk_delta": 24,
+      "step_order": 2,
+      "description": "Request originated from unseen Linux fingerprint on Tor Exit Node AS60729 (185.220.101.45)",
+      "entity_type": "DEVICE",
+      "incident_id": "INC-2026-0042"
+    },
+    {
+      "id": "EVT-03",
+      "title": "Payment Method Injected",
+      "entity_id": "PM-888",
+      "timestamp": "2026-10-03T04:20:45Z",
+      "event_type": "PAYMENT",
+      "risk_delta": 22,
+      "step_order": 3,
+      "description": "New prepaid card (5312 •••• •••• 7714) added under third-party name Viktor Kane",
+      "entity_type": "PAYMENT",
+      "incident_id": "INC-2026-0042"
+    },
+    {
+      "id": "EVT-04",
+      "title": "Unauthorized Cross-Border Routing",
+      "entity_id": "DE-FRA-FRANKFURT",
+      "timestamp": "2026-10-03T04:21:30Z",
+      "event_type": "DESTINATION",
+      "risk_delta": 18,
+      "step_order": 4,
+      "description": "Destination changed to Frankfurt Airport Cargo Hub DE-FRA-FRANKFURT (Violates domestic-only permission profile)",
+      "entity_type": "DESTINATION",
+      "incident_id": "INC-2026-0042"
+    },
+    {
+      "id": "EVT-05",
+      "title": "Anomalous Booking Ingested",
+      "entity_id": "BKG-2026-9042",
+      "timestamp": "2026-10-03T04:22:15Z",
+      "event_type": "BOOKING",
+      "risk_delta": 28,
+      "step_order": 5,
+      "description": "Consignment declared at 180.0 kg (36x historical average of 5.0 kg)",
+      "entity_type": "BOOKING",
+      "incident_id": "INC-2026-0042"
+    },
+    {
+      "id": "EVT-06",
+      "title": "Multi-Engine Risk Aggregation",
+      "entity_id": "RSK-9042",
+      "timestamp": "2026-10-03T04:22:19Z",
+      "event_type": "FRAUD_ANALYSIS",
+      "risk_delta": 0,
+      "step_order": 6,
+      "description": "Behavioral, permission, payment, and ML anomaly models triggered. Risk score calculated at 92/100.",
+      "entity_type": "RISK_ASSESSMENT",
+      "incident_id": "INC-2026-0042"
+    },
+    {
+      "id": "EVT-07",
+      "title": "Carrier Dispatch Quarantined — BLOCK Enforced",
+      "entity_id": "DEC-BLOCK-9042",
+      "timestamp": "2026-10-03T04:22:20Z",
+      "event_type": "DECISION",
+      "risk_delta": 0,
+      "step_order": 7,
+      "description": "Pre-shipment blocking policy triggered; carrier manifest integration halted",
+      "entity_type": "DECISION",
+      "incident_id": "INC-2026-0042"
+    },
+    {
+      "id": "EVT-08",
+      "title": "Forensic Incident INC-2026-0042 Created",
+      "entity_id": "INC-2026-0042",
+      "timestamp": "2026-10-03T04:22:21Z",
+      "event_type": "INCIDENT_CREATED",
+      "risk_delta": 0,
+      "step_order": 8,
+      "description": "Auto-routed to Senior Fraud Investigator queue with Critical severity",
+      "entity_type": "INCIDENT",
+      "incident_id": "INC-2026-0042"
+    },
+    {
+      "id": "EVT-09",
+      "title": "Tamper-Evident SHA-256 Hash Chain Sealed",
+      "entity_id": "EVD-004-RISK",
+      "timestamp": "2026-10-03T04:22:22Z",
+      "event_type": "EVIDENCE_SEALED",
+      "risk_delta": 0,
+      "step_order": 9,
+      "description": "Digital evidence bundle cryptographically anchored to internal ledger",
+      "entity_type": "EVIDENCE",
+      "incident_id": "INC-2026-0042"
+    },
+    {
+      "id": "EVT-musjniss-1",
+      "title": "Account Authentication Session",
+      "entity_id": "ACC-202",
+      "timestamp": "2026-10-03T15:21:43.276Z",
+      "event_type": "AUTH",
+      "risk_delta": 0,
+      "step_order": 1,
+      "description": "Access token validated for account FS-ACC-44912 (Nexus BioLogistics Pharma)",
+      "entity_type": "ACCOUNT",
+      "incident_id": "INC-2026-4976"
+    },
+    {
+      "id": "EVT-musjniss-2",
+      "title": "Device Hardware & Network Fingerprinted",
+      "entity_id": "DEV-999",
+      "timestamp": "2026-10-03T15:22:43.276Z",
+      "event_type": "DEVICE",
+      "risk_delta": 25,
+      "step_order": 2,
+      "description": "Connected from 185.220.101.45 (AS60729 Zwiebelfreunde e.V.) [SUSPICIOUS INFRASTRUCTURE]",
+      "entity_type": "DEVICE",
+      "incident_id": "INC-2026-4976"
+    },
+    {
+      "id": "EVT-musjniss-3",
+      "title": "Payment Method Attached",
+      "entity_id": "PM-888",
+      "timestamp": "2026-10-03T15:23:43.276Z",
+      "event_type": "PAYMENT",
+      "risk_delta": 20,
+      "step_order": 3,
+      "description": "Payment instrument 5312 •••• •••• 7714 (PREPAID) submitted by Viktor Kane (Name Mismatch)",
+      "entity_type": "PAYMENT",
+      "incident_id": "INC-2026-4976"
+    },
+    {
+      "id": "EVT-musjniss-4",
+      "title": "Consignment Routing Configured",
+      "entity_id": "DE-FRA-FRANKFURT",
+      "timestamp": "2026-10-03T15:24:43.276Z",
+      "event_type": "DESTINATION",
+      "risk_delta": 15,
+      "step_order": 4,
+      "description": "Routing specified: IN-DEL-DELHI -> DE-FRA-FRANKFURT (AIR_EXPRESS_PRIORITY)",
+      "entity_type": "DESTINATION",
+      "incident_id": "INC-2026-4976"
+    },
+    {
+      "id": "EVT-musjniss-5",
+      "title": "Consignment Screening Ingested",
+      "entity_id": "BKG-MUSJNIL0-EU4I",
+      "timestamp": "2026-10-03T15:25:13.276Z",
+      "event_type": "BOOKING",
+      "risk_delta": 30,
+      "step_order": 5,
+      "description": "Booking FS-BK-5255 registered: 180 kg declared",
+      "entity_type": "BOOKING",
+      "incident_id": "INC-2026-4976"
+    },
+    {
+      "id": "EVT-musjniss-6",
+      "title": "Fraud Engine Risk Scoring Executed",
+      "entity_id": "RSK-MUSJNISQ-D0LZ",
+      "timestamp": "2026-10-03T15:25:33.276Z",
+      "event_type": "FRAUD_ANALYSIS",
+      "risk_delta": 0,
+      "step_order": 6,
+      "description": "Aggregated composite risk score calculated at 78/100 with 10 triggers",
+      "entity_type": "RISK_ASSESSMENT",
+      "incident_id": "INC-2026-4976"
+    },
+    {
+      "id": "EVT-musjniss-7",
+      "title": "Pre-Shipment Decision Enforced: BLOCK",
+      "entity_id": "DEC-BLOCK-BKG-MUSJNIL0-EU4I",
+      "timestamp": "2026-10-03T15:25:38.276Z",
+      "event_type": "DECISION",
+      "risk_delta": 0,
+      "step_order": 7,
+      "description": "Carrier booking locked and quarantined from processing line.",
+      "entity_type": "DECISION",
+      "incident_id": "INC-2026-4976"
+    },
+    {
+      "id": "EVT-musjniss-8",
+      "title": "Forensic Incident Opened: INC-2026-4976",
+      "entity_id": "INC-2026-4976",
+      "timestamp": "2026-10-03T15:25:43.276Z",
+      "event_type": "INCIDENT_CREATED",
+      "risk_delta": 0,
+      "step_order": 8,
+      "description": "Automated assignment to Senior Fraud Investigator queue",
+      "entity_type": "INCIDENT",
+      "incident_id": "INC-2026-4976"
+    }
+  ],
+  "paymentMethods": [
+    {
+      "id": "PM-101",
+      "risk_flag": false,
+      "account_id": "ACC-101",
+      "shipper_id": "SHP-101",
+      "card_holder": "Apex Precision Tools Ltd",
+      "is_verified": true,
+      "payment_type": "CORPORATE_ACH",
+      "failure_count": 0,
+      "masked_number": "•••• •••• •••• 4492",
+      "billing_country": "India"
+    },
+    {
+      "id": "PM-202",
+      "risk_flag": false,
+      "account_id": "ACC-202",
+      "shipper_id": "SHP-202",
+      "card_holder": "Nexus BioLogistics Pharma",
+      "is_verified": true,
+      "payment_type": "CORPORATE_ACH",
+      "failure_count": 0,
+      "masked_number": "•••• •••• •••• 9011",
+      "billing_country": "India"
+    },
+    {
+      "id": "PM-888",
+      "risk_flag": true,
+      "account_id": "ACC-202",
+      "shipper_id": "SHP-202",
+      "card_holder": "Viktor Kane (Name Mismatch)",
+      "is_verified": false,
+      "payment_type": "PREPAID",
+      "failure_count": 2,
+      "masked_number": "5312 •••• •••• 7714",
+      "billing_country": "Cyprus"
+    },
+    {
+      "id": "PM-303",
+      "risk_flag": false,
+      "account_id": "ACC-303",
+      "shipper_id": "SHP-303",
+      "card_holder": "Solis Robotics Inc",
+      "is_verified": true,
+      "payment_type": "CREDIT_CARD",
+      "failure_count": 0,
+      "masked_number": "4111 •••• •••• 3029",
+      "billing_country": "India"
+    },
+    {
+      "id": "PM-404",
+      "risk_flag": false,
+      "account_id": "ACC-404",
+      "shipper_id": "SHP-404",
+      "card_holder": "Orion Logistics Management",
+      "is_verified": true,
+      "payment_type": "CREDIT_CARD",
+      "failure_count": 1,
+      "masked_number": "4242 •••• •••• 1180",
+      "billing_country": "India"
+    }
+  ],
+  "complianceRules": [
+    {
+      "id": "COMP-IN-01",
+      "version": "Statutory 2024 Reissue",
+      "authority": "Central Board of Indirect Taxes and Customs (CBIC), India",
+      "source_url": "https://www.cbic.gov.in/htdocs-cbec/customs/cs-act/cs-act-idx",
+      "requirement": "Mandatory declaration of accurate commercial description, weight, and true transaction value for all outbound/inbound cargo. False declaration attracts seizure under Section 111/113.",
+      "section_rule": "Section 50 & Section 46",
+      "effective_date": "1962-12-13",
+      "law_regulation": "Customs Act, 1962",
+      "applicable_shipment_type": "ALL_EXPORTS_IMPORTS"
+    },
+    {
+      "id": "COMP-IN-02",
+      "version": "Amended Circular 30/2020",
+      "authority": "Directorate General of Systems & Data Management, CBIC",
+      "source_url": "https://www.cbic.gov.in/resources//htdocs-cbec/customs/cs-regulations/cour-imprt-exprt-clrnc1998.pdf",
+      "requirement": "Express courier consignment value threshold: Commercial packages exceeding ₹50,000 or 70 kg require formal Bill of Entry/Shipping Bill and verified Importer-Exporter Code (IEC).",
+      "section_rule": "Regulation 5(1) & Regulation 12",
+      "effective_date": "1998-06-02",
+      "law_regulation": "Courier Imports and Exports (Clearance) Regulations, 1998",
+      "applicable_shipment_type": "EXPRESS_COURIER"
+    },
+    {
+      "id": "COMP-IN-03",
+      "version": "Statutory Gazetted Revision 2021",
+      "authority": "Directorate General of Shipping, Ministry of Ports, Shipping and Waterways",
+      "source_url": "https://dgshipping.gov.in/Content/MerchantShippingAct.aspx",
+      "requirement": "Carriage of dangerous, high-density or hazardous cargo requires verified Material Safety Data Sheet (MSDS) and shipper liability certification prior to vessel/air consignment.",
+      "section_rule": "Section 334 & Section 335",
+      "effective_date": "1958-10-30",
+      "law_regulation": "Merchant Shipping Act, 1958",
+      "applicable_shipment_type": "CARGO_ABOVE_100KG"
+    },
+    {
+      "id": "COMP-IN-04",
+      "version": "RBI Master Direction 2023",
+      "authority": "Reserve Bank of India (RBI) / Financial Intelligence Unit (FIU-IND)",
+      "source_url": "https://www.rbi.org.in/Scripts/BS_ViewMasCirculardetails.aspx?id=9862",
+      "requirement": "Mandatory verification of corporate KYC and beneficial ownership for cross-border transit logistics exceeding threshold value or with high-risk financial jurisdictions.",
+      "section_rule": "FEMA Section 7 & PMLA Rule 9(1)",
+      "effective_date": "2000-06-01",
+      "law_regulation": "Foreign Exchange Management Act (FEMA), 1999 & PMLA Rules",
+      "applicable_shipment_type": "CROSS_BORDER_HIGH_VALUE"
+    }
+  ],
+  "riskAssessments": [
+    {
+      "id": "RSK-MUSJNISQ-D0LZ",
+      "decision": "BLOCK",
+      "ml_status": "ACTIVE",
+      "booking_id": "BKG-MUSJNIL0-EU4I",
+      "created_at": "2026-10-03T15:25:43.274Z",
+      "risk_level": "HIGH",
+      "explanation": "Pre-shipment BLOCK enforced (Risk Score 78/100, LEVEL 1 — AI/ML DETECTION). This action was triggered by an anomalous cargo weight of 180 kg (36.0x historical average of 5 kg), permission profile violations including Account permission profile strictly restricts booking to domestic territory. International destination DE-FRA-FRANKFURT attempted.; Consignment weight (180 kg) exceeds authorized maximum profile limit of 40 kg; Requested service 'AIR_EXPRESS_PRIORITY' is outside approved service tiers; High-risk cargo classification: 'CHEMICALS_HIGH_DENSITY' requires specialized handling audits, high-risk network infrastructure or linkage to previously blocked entities, payment instrument irregularities. Digital trust score reduced to prevent fraudulent dispatch.",
+      "final_score": 78,
+      "payment_score": 95,
+      "behavior_score": 100,
+      "fallback_level": "LEVEL 1 — AI/ML DETECTION",
+      "identity_score": 100,
+      "shipment_score": 65,
+      "compliance_score": 45,
+      "ml_anomaly_score": 0.755,
+      "ml_model_version": "FS-IForest-v1.4",
+      "destination_score": 35,
+      "triggered_signals": [
+        {
+          "code": "WEIGHT_ANOMALY_EXTREME",
+          "category": "BEHAVIOR",
+          "severity": "CRITICAL",
+          "description": "Consignment weight (180 kg) is 36x the shipper historical average of 5 kg",
+          "expected_value": "5 kg",
+          "observed_value": "180 kg",
+          "score_contribution": 28
+        },
+        {
+          "code": "BEHAVIORAL_UNUSUAL_DESTINATION",
+          "category": "BEHAVIOR",
+          "severity": "MEDIUM",
+          "description": "Destination 'DE-FRA-FRANKFURT' is not in historical shipping routes",
+          "expected_value": "IN-BOM-MUMBAI, IN-CCU-KOLKATA, IN-MAA-CHENNAI",
+          "observed_value": "DE-FRA-FRANKFURT",
+          "score_contribution": 12
+        },
+        {
+          "code": "PRIVILEGE_ABUSE_INTERNATIONAL_DESTINATION",
+          "category": "IDENTITY",
+          "severity": "HIGH",
+          "description": "Account permission profile strictly restricts booking to domestic territory. International destination DE-FRA-FRANKFURT attempted.",
+          "expected_value": "Domestic Only",
+          "observed_value": "DE-FRA-FRANKFURT",
+          "score_contribution": 25
+        },
+        {
+          "code": "PRIVILEGE_ABUSE_WEIGHT_CEILING_BREACH",
+          "category": "SHIPMENT",
+          "severity": "HIGH",
+          "description": "Consignment weight (180 kg) exceeds authorized maximum profile limit of 40 kg",
+          "expected_value": "Max 40 kg",
+          "observed_value": "180 kg",
+          "score_contribution": 20
+        },
+        {
+          "code": "SERVICE_TIER_MISMATCH",
+          "category": "IDENTITY",
+          "severity": "MEDIUM",
+          "description": "Requested service 'AIR_EXPRESS_PRIORITY' is outside approved service tiers",
+          "expected_value": "STANDARD_GROUND, COLD_CHAIN_STANDARD",
+          "observed_value": "AIR_EXPRESS_PRIORITY",
+          "score_contribution": 12
+        },
+        {
+          "code": "PAYMENT_RISK_FLAG_ACTIVE",
+          "category": "PAYMENT",
+          "severity": "HIGH",
+          "description": "Payment instrument has active risk flags or previous decline patterns (2 failures)",
+          "expected_value": "Verified Payment Instrument",
+          "observed_value": "5312 •••• •••• 7714 (PREPAID)",
+          "score_contribution": 22
+        },
+        {
+          "code": "PAYMENT_BENEFICIARY_MISMATCH",
+          "category": "PAYMENT",
+          "severity": "HIGH",
+          "description": "Payment cardholder name 'Viktor Kane (Name Mismatch)' does not match company entity 'Nexus BioLogistics Pharma'",
+          "expected_value": "Nexus BioLogistics Pharma",
+          "observed_value": "Viktor Kane (Name Mismatch)",
+          "score_contribution": 18
+        },
+        {
+          "code": "DEVICE_LINKED_TO_SUSPICIOUS_INFRASTRUCTURE",
+          "category": "RELATIONSHIP",
+          "severity": "CRITICAL",
+          "description": "Originating device DEV-999 is linked to previously blocked entity: INC-2025-0819 (Cargo Intercepted)",
+          "expected_value": "Clean Verified Terminal",
+          "observed_value": "185.220.101.45 (AS60729 Zwiebelfreunde e.V.)",
+          "score_contribution": 26
+        },
+        {
+          "code": "ANONYMIZED_NETWORK_TOR_PROXY",
+          "category": "RELATIONSHIP",
+          "severity": "HIGH",
+          "description": "Connection routed via anonymization proxy/Tor exit node (AS60729 Zwiebelfreunde e.V.)",
+          "expected_value": "Standard Residential / Corporate ISP",
+          "observed_value": "185.220.101.45",
+          "score_contribution": 20
+        },
+        {
+          "code": "HAZARDOUS_CARGO_SENSITIVITY",
+          "category": "SHIPMENT",
+          "severity": "MEDIUM",
+          "description": "High-risk cargo classification: 'CHEMICALS_HIGH_DENSITY' requires specialized handling audits",
+          "expected_value": "General Cargo",
+          "observed_value": "CHEMICALS_HIGH_DENSITY",
+          "score_contribution": 14
+        }
+      ],
+      "explanation_source": "DETERMINISTIC_RULES",
+      "digital_trust_score": 52,
+      "authorized_vs_observed": {
+        "weight": {
+          "matches": false,
+          "multiple": 36,
+          "observed": 180,
+          "authorized_max": 40
+        },
+        "payment": {
+          "matches": false,
+          "observed": "PREPAID",
+          "authorized_type": [
+            "CORPORATE_ACH"
+          ]
+        },
+        "destination": {
+          "matches": false,
+          "observed": "DE-FRA-FRANKFURT",
+          "authorized": [
+            "IN-BOM-MUMBAI",
+            "IN-CCU-KOLKATA",
+            "IN-MAA-CHENNAI",
+            "IN-BLR-BENGALURU"
+          ]
+        },
+        "service_type": {
+          "matches": false,
+          "observed": "AIR_EXPRESS_PRIORITY",
+          "authorized": [
+            "STANDARD_GROUND",
+            "COLD_CHAIN_STANDARD"
+          ]
+        }
+      }
+    },
+    {
+      "id": "RSK-MUSJNIKP-EQ0C",
+      "decision": "ALLOW",
+      "ml_status": "ACTIVE",
+      "booking_id": "BKG-MUSJNI14-7TBC",
+      "created_at": "2026-10-03T15:25:42.985Z",
+      "risk_level": "LOW",
+      "explanation": "Shipment authorized under routine controls (Risk Score 5/100). The booking parameters (5.4 kg to IN-BLR-BENGALURU) conform to Apex Precision Tools Ltd's historical profile and verified authorization boundaries. Processed via LEVEL 1 — AI/ML DETECTION.",
+      "final_score": 5,
+      "payment_score": 5,
+      "behavior_score": 5,
+      "fallback_level": "LEVEL 1 — AI/ML DETECTION",
+      "identity_score": 6.5,
+      "shipment_score": 5,
+      "compliance_score": 5,
+      "ml_anomaly_score": 0.04,
+      "ml_model_version": "FS-IForest-v1.4",
+      "destination_score": 5,
+      "triggered_signals": [],
+      "explanation_source": "DETERMINISTIC_RULES",
+      "digital_trust_score": 96,
+      "authorized_vs_observed": {
+        "weight": {
+          "matches": true,
+          "multiple": 1,
+          "observed": 5.4,
+          "authorized_max": 30
+        },
+        "payment": {
+          "matches": true,
+          "observed": "CORPORATE_ACH",
+          "authorized_type": [
+            "CORPORATE_ACH",
+            "CREDIT_CARD"
+          ]
+        },
+        "destination": {
+          "matches": true,
+          "observed": "IN-BLR-BENGALURU",
+          "authorized": [
+            "IN-BLR-BENGALURU",
+            "IN-DEL-DELHI",
+            "IN-HYD-HYDERABAD",
+            "IN-PNQ-PUNE",
+            "IN-MAA-CHENNAI"
+          ]
+        },
+        "service_type": {
+          "matches": true,
+          "observed": "STANDARD_GROUND",
+          "authorized": [
+            "STANDARD_GROUND",
+            "EXPRESS_SAVER"
+          ]
+        }
+      }
+    },
+    {
+      "id": "RSK-1001",
+      "decision": "ALLOW",
+      "ml_status": "ACTIVE",
+      "booking_id": "BKG-2026-1001",
+      "created_at": "2026-10-02T10:14:05Z",
+      "risk_level": "LOW",
+      "explanation": "Consignment perfectly matches historical behavioral profile (5.4kg vs 5.2kg avg), authorized domestic corridor (Mumbai to Bengaluru), verified corporate ACH payment, and recognized hardware fingerprint.",
+      "final_score": 6,
+      "payment_score": 4,
+      "behavior_score": 8,
+      "fallback_level": "LEVEL 1 — AI/ML DETECTION",
+      "identity_score": 5,
+      "shipment_score": 6,
+      "compliance_score": 8,
+      "ml_anomaly_score": 0.04,
+      "ml_model_version": "FS-IForest-v1.4",
+      "destination_score": 5,
+      "triggered_signals": [],
+      "explanation_source": "DETERMINISTIC_RULES",
+      "digital_trust_score": 96,
+      "authorized_vs_observed": {
+        "weight": {
+          "matches": true,
+          "multiple": 1,
+          "observed": 5.4,
+          "authorized_max": 30
+        },
+        "payment": {
+          "matches": true,
+          "observed": "CORPORATE_ACH",
+          "authorized_type": [
+            "CORPORATE_ACH",
+            "CREDIT_CARD"
+          ]
+        },
+        "destination": {
+          "matches": true,
+          "observed": "IN-BLR-BENGALURU",
+          "authorized": [
+            "IN-BLR-BENGALURU",
+            "IN-DEL-DELHI"
+          ]
+        },
+        "service_type": {
+          "matches": true,
+          "observed": "STANDARD_GROUND",
+          "authorized": [
+            "STANDARD_GROUND",
+            "EXPRESS_SAVER"
+          ]
+        }
+      }
+    },
+    {
+      "id": "RSK-9042",
+      "decision": "BLOCK",
+      "ml_status": "ACTIVE",
+      "booking_id": "BKG-2026-9042",
+      "created_at": "2026-10-03T04:22:20Z",
+      "risk_level": "HIGH",
+      "explanation": "Critical Risk Detected (Score 92/100): High-confidence account takeover and privilege abuse pattern. Observed booking weight (180.0 kg) represents a 36.0x deviation from historical baseline (5.0 kg) and breaches the 40.0 kg permission ceiling. The transaction originated via an untrusted Tor exit node (DEV-999) previously connected to blocked sybil entities, paired with an unverified offshore prepaid card under an unrelated cardholder name. Immediate pre-shipment quarantine enforced.",
+      "final_score": 92,
+      "payment_score": 92,
+      "behavior_score": 96,
+      "fallback_level": "LEVEL 1 — AI/ML DETECTION",
+      "identity_score": 88,
+      "shipment_score": 94,
+      "compliance_score": 89,
+      "ml_anomaly_score": 0.982,
+      "ml_model_version": "FS-IForest-v1.4",
+      "destination_score": 85,
+      "triggered_signals": [
+        {
+          "code": "WEIGHT_ANOMALY_EXTREME",
+          "category": "BEHAVIOR",
+          "severity": "CRITICAL",
+          "description": "Shipment weight 180.0 kg is 36.0x the shipper historical average of 5.0 kg",
+          "expected_value": "5.0 kg",
+          "observed_value": "180.0 kg",
+          "score_contribution": 28
+        },
+        {
+          "code": "PERMISSION_VIOLATION_INTERNATIONAL",
+          "category": "IDENTITY",
+          "severity": "HIGH",
+          "description": "Shipper permission profile strictly restricts booking to domestic routes. International destination DE-FRA-FRANKFURT attempted.",
+          "expected_value": "Domestic Only",
+          "observed_value": "DE-FRA-FRANKFURT",
+          "score_contribution": 22
+        },
+        {
+          "code": "PERMISSION_VIOLATION_WEIGHT_CAP",
+          "category": "SHIPMENT",
+          "severity": "HIGH",
+          "description": "Booking weight 180.0 kg exceeds authorized maximum profile limit of 40.0 kg",
+          "expected_value": "Max 40.0 kg",
+          "observed_value": "180.0 kg",
+          "score_contribution": 18
+        },
+        {
+          "code": "DEVICE_LINKED_TO_SUSPICIOUS_NETWORK",
+          "category": "RELATIONSHIP",
+          "severity": "CRITICAL",
+          "description": "Originating device DEV-999 is operating from Tor exit node AS60729 and previously linked to blocked sybil account ACC-992",
+          "expected_value": "Tata Communications (Known AS4755)",
+          "observed_value": "185.220.101.45 (AS60729)",
+          "score_contribution": 24
+        },
+        {
+          "code": "PAYMENT_CARDHOLDER_MISMATCH",
+          "category": "PAYMENT",
+          "severity": "HIGH",
+          "description": "Payment cardholder (Viktor Kane) does not match authenticated corporate entity (Nexus BioLogistics Pharma)",
+          "expected_value": "Nexus BioLogistics Pharma",
+          "observed_value": "Viktor Kane (Cyprus)",
+          "score_contribution": 16
+        },
+        {
+          "code": "REGULATORY_CUSTOMS_INTERCEPT",
+          "category": "COMPLIANCE",
+          "severity": "HIGH",
+          "description": "Consignment exceeds simplified courier clearance limits under Regulation 5(1) and lacks required formal Shipping Bill declaration",
+          "expected_value": "Max 70kg / ₹50,000 INR",
+          "observed_value": "180kg / ₹28,00,000 INR",
+          "score_contribution": 14
+        }
+      ],
+      "explanation_source": "GENAI",
+      "digital_trust_score": 18,
+      "authorized_vs_observed": {
+        "weight": {
+          "matches": false,
+          "multiple": 36,
+          "observed": 180,
+          "authorized_max": 40
+        },
+        "payment": {
+          "matches": false,
+          "observed": "PREPAID",
+          "authorized_type": [
+            "CORPORATE_ACH"
+          ]
+        },
+        "destination": {
+          "matches": false,
+          "observed": "DE-FRA-FRANKFURT",
+          "authorized": [
+            "IN-BOM-MUMBAI",
+            "IN-CCU-KOLKATA",
+            "IN-MAA-CHENNAI"
+          ]
+        },
+        "service_type": {
+          "matches": false,
+          "observed": "AIR_EXPRESS_PRIORITY",
+          "authorized": [
+            "STANDARD_GROUND",
+            "COLD_CHAIN_STANDARD"
+          ]
+        }
+      }
+    }
+  ],
+  "complianceChecks": [
+    {
+      "id": "CHK-MUSJNIL0-JFCG",
+      "status": "PASS",
+      "rule_id": "COMP-IN-01",
+      "verifier": "FraudShield Automated Statutory Engine v2.4 (Independent Algorithmic Audit)",
+      "authority": "Central Board of Indirect Taxes and Customs (CBIC), India",
+      "booking_id": "BKG-MUSJNIL0-EU4I",
+      "requirement": "Mandatory declaration of accurate commercial description, weight, and true transaction value for all outbound/inbound cargo. False declaration attracts seizure under Section 111/113.",
+      "verified_at": "2026-10-03T15:25:42.996Z",
+      "section_rule": "Section 50 & Section 46",
+      "law_regulation": "Customs Act, 1962",
+      "evidence_summary": "Compliant declaration: Weight 180kg and transaction value ₹28,00,000 duly recorded."
+    },
+    {
+      "id": "CHK-MUSJNIL0-6TTH",
+      "status": "REVIEW",
+      "rule_id": "COMP-IN-02",
+      "verifier": "FraudShield Automated Statutory Engine v2.4 (Independent Algorithmic Audit)",
+      "authority": "Directorate General of Systems & Data Management, CBIC",
+      "booking_id": "BKG-MUSJNIL0-EU4I",
+      "requirement": "Express courier consignment value threshold: Commercial packages exceeding ₹50,000 or 70 kg require formal Bill of Entry/Shipping Bill and verified Importer-Exporter Code (IEC).",
+      "verified_at": "2026-10-03T15:25:42.996Z",
+      "section_rule": "Regulation 5(1) & Regulation 12",
+      "law_regulation": "Courier Imports and Exports (Clearance) Regulations, 1998",
+      "evidence_summary": "Formal clearance mandated: Weight (180kg) or value (₹28,00,000) exceeds courier limit. Formal Shipping Bill filing required."
+    },
+    {
+      "id": "CHK-MUSJNIL0-X3RY",
+      "status": "REVIEW",
+      "rule_id": "COMP-IN-03",
+      "verifier": "FraudShield Automated Statutory Engine v2.4 (Independent Algorithmic Audit)",
+      "authority": "Directorate General of Shipping, Ministry of Ports, Shipping and Waterways",
+      "booking_id": "BKG-MUSJNIL0-EU4I",
+      "requirement": "Carriage of dangerous, high-density or hazardous cargo requires verified Material Safety Data Sheet (MSDS) and shipper liability certification prior to vessel/air consignment.",
+      "verified_at": "2026-10-03T15:25:42.996Z",
+      "section_rule": "Section 334 & Section 335",
+      "law_regulation": "Merchant Shipping Act, 1958",
+      "evidence_summary": "Heavy cargo regulatory trigger: Consignment weight 180kg requires mandatory verified container weight certificate and dangerous goods checklist prior to loading."
+    },
+    {
+      "id": "CHK-MUSJNIL0-IHFS",
+      "status": "PASS",
+      "rule_id": "COMP-IN-04",
+      "verifier": "FraudShield Automated Statutory Engine v2.4 (Independent Algorithmic Audit)",
+      "authority": "Reserve Bank of India (RBI) / Financial Intelligence Unit (FIU-IND)",
+      "booking_id": "BKG-MUSJNIL0-EU4I",
+      "requirement": "Mandatory verification of corporate KYC and beneficial ownership for cross-border transit logistics exceeding threshold value or with high-risk financial jurisdictions.",
+      "verified_at": "2026-10-03T15:25:42.996Z",
+      "section_rule": "FEMA Section 7 & PMLA Rule 9(1)",
+      "law_regulation": "Foreign Exchange Management Act (FEMA), 1999 & PMLA Rules",
+      "evidence_summary": "Domestic booking; exempt from cross-border FEMA reporting."
+    },
+    {
+      "id": "CHK-MUSJNI19-4BL6",
+      "status": "PASS",
+      "rule_id": "COMP-IN-01",
+      "verifier": "FraudShield Automated Statutory Engine v2.4 (Independent Algorithmic Audit)",
+      "authority": "Central Board of Indirect Taxes and Customs (CBIC), India",
+      "booking_id": "BKG-MUSJNI14-7TBC",
+      "requirement": "Mandatory declaration of accurate commercial description, weight, and true transaction value for all outbound/inbound cargo. False declaration attracts seizure under Section 111/113.",
+      "verified_at": "2026-10-03T15:25:42.285Z",
+      "section_rule": "Section 50 & Section 46",
+      "law_regulation": "Customs Act, 1962",
+      "evidence_summary": "Compliant declaration: Weight 5.4kg and transaction value ₹18,900 duly recorded."
+    },
+    {
+      "id": "CHK-MUSJNI1A-2QK6",
+      "status": "PASS",
+      "rule_id": "COMP-IN-02",
+      "verifier": "FraudShield Automated Statutory Engine v2.4 (Independent Algorithmic Audit)",
+      "authority": "Directorate General of Systems & Data Management, CBIC",
+      "booking_id": "BKG-MUSJNI14-7TBC",
+      "requirement": "Express courier consignment value threshold: Commercial packages exceeding ₹50,000 or 70 kg require formal Bill of Entry/Shipping Bill and verified Importer-Exporter Code (IEC).",
+      "verified_at": "2026-10-03T15:25:42.286Z",
+      "section_rule": "Regulation 5(1) & Regulation 12",
+      "law_regulation": "Courier Imports and Exports (Clearance) Regulations, 1998",
+      "evidence_summary": "Courier limits satisfied: Package falls within standard courier clearance parameters."
+    },
+    {
+      "id": "CHK-MUSJNI1A-XEJH",
+      "status": "PASS",
+      "rule_id": "COMP-IN-03",
+      "verifier": "FraudShield Automated Statutory Engine v2.4 (Independent Algorithmic Audit)",
+      "authority": "Directorate General of Shipping, Ministry of Ports, Shipping and Waterways",
+      "booking_id": "BKG-MUSJNI14-7TBC",
+      "requirement": "Carriage of dangerous, high-density or hazardous cargo requires verified Material Safety Data Sheet (MSDS) and shipper liability certification prior to vessel/air consignment.",
+      "verified_at": "2026-10-03T15:25:42.286Z",
+      "section_rule": "Section 334 & Section 335",
+      "law_regulation": "Merchant Shipping Act, 1958",
+      "evidence_summary": "Cargo weight 5.4kg conforms to standard general cargo protocol."
+    },
+    {
+      "id": "CHK-MUSJNI1A-T2DR",
+      "status": "PASS",
+      "rule_id": "COMP-IN-04",
+      "verifier": "FraudShield Automated Statutory Engine v2.4 (Independent Algorithmic Audit)",
+      "authority": "Reserve Bank of India (RBI) / Financial Intelligence Unit (FIU-IND)",
+      "booking_id": "BKG-MUSJNI14-7TBC",
+      "requirement": "Mandatory verification of corporate KYC and beneficial ownership for cross-border transit logistics exceeding threshold value or with high-risk financial jurisdictions.",
+      "verified_at": "2026-10-03T15:25:42.286Z",
+      "section_rule": "FEMA Section 7 & PMLA Rule 9(1)",
+      "law_regulation": "Foreign Exchange Management Act (FEMA), 1999 & PMLA Rules",
+      "evidence_summary": "Domestic booking; exempt from cross-border FEMA reporting."
+    },
+    {
+      "id": "CHK-1001-01",
+      "status": "PASS",
+      "rule_id": "COMP-IN-01",
+      "verifier": "FraudShield Automated Statutory Engine v2.4",
+      "authority": "Central Board of Indirect Taxes and Customs (CBIC), India",
+      "booking_id": "BKG-2026-1001",
+      "requirement": "Mandatory declaration of accurate commercial description, weight, and true transaction value.",
+      "verified_at": "2026-10-02T10:14:05Z",
+      "section_rule": "Section 50 & Section 46",
+      "law_regulation": "Customs Act, 1962",
+      "evidence_summary": "Compliant declaration: Weight 5.4kg and transaction value ₹70,000 duly recorded."
+    },
+    {
+      "id": "CHK-9042-01",
+      "status": "FAIL",
+      "rule_id": "COMP-IN-02",
+      "verifier": "FraudShield Automated Statutory Engine v2.4",
+      "authority": "Directorate General of Systems & Data Management, CBIC",
+      "booking_id": "BKG-2026-9042",
+      "requirement": "Consignment weight > 70kg or value > ₹50,000 mandates formal Shipping Bill filing and IEC verification.",
+      "verified_at": "2026-10-03T04:22:20Z",
+      "section_rule": "Regulation 5(1) & Regulation 12",
+      "law_regulation": "Courier Imports and Exports (Clearance) Regulations, 1998",
+      "evidence_summary": "Consignment (180kg / ₹28,00,000) exceeds express courier limits. Missing verified export documents."
+    },
+    {
+      "id": "CHK-9042-02",
+      "status": "REVIEW",
+      "rule_id": "COMP-IN-03",
+      "verifier": "FraudShield Automated Statutory Engine v2.4",
+      "authority": "Directorate General of Shipping, Ministry of Ports, Shipping and Waterways",
+      "booking_id": "BKG-2026-9042",
+      "requirement": "Carriage of hazardous or heavy cargo (>100kg) requires verified MSDS checklist.",
+      "verified_at": "2026-10-03T04:22:20Z",
+      "section_rule": "Section 334 & Section 335",
+      "law_regulation": "Merchant Shipping Act, 1958",
+      "evidence_summary": "Consignment weight 180kg requires mandatory container scale certification."
+    }
+  ],
+  "blockchainAnchors": [
+    {
+      "id": "BCA-MUSJNIT1-0B21A2",
+      "state": "ANCHORED",
+      "timestamp": "2026-10-03T15:25:43.285Z",
+      "evidence_id": "EVD-004-RISK",
+      "incident_id": "INC-2026-0042",
+      "merkle_root": "0xmrk_720fa78084f0fb20aa39d37e1f02f948",
+      "anchor_tx_id": "0xsim_a8680f44059dde245cb7820df3eb792c749868b766fbf54c15cd9d161ca4e0b0",
+      "block_number": 18498045,
+      "network_mode": "SIMULATED",
+      "document_hash": "dc2de2b9d3a67da55a710984cb0caf0448aa08ec8ad55813c59dc966b12c25c0"
+    },
+    {
+      "id": "BCA-0042",
+      "state": "ANCHORED",
+      "timestamp": "2026-10-03T04:23:00Z",
+      "evidence_id": "EVD-004-RISK",
+      "incident_id": "INC-2026-0042",
+      "merkle_root": "0xmrk_9a8b7c6d5e4f3a2b1c0d9e8f7a6b5c4d",
+      "anchor_tx_id": "0xsim_7c4f1a8e99b2d304e5a6f7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8",
+      "block_number": 18491024,
+      "network_mode": "SIMULATED",
+      "document_hash": "dc2de2b9d3a67da55a710984cb0caf0448aa08ec8ad55813c59dc966b12c25c0"
+    }
+  ],
+  "permissionProfiles": [
+    {
+      "id": "PERM-101",
+      "account_id": "ACC-101",
+      "max_weight_kg": 30,
+      "allowed_domestic": true,
+      "approved_origins": [
+        "IN-BOM-MUMBAI",
+        "IN-PNQ-PUNE"
+      ],
+      "allowed_international": false,
+      "allowed_payment_types": [
+        "CORPORATE_ACH",
+        "CREDIT_CARD"
+      ],
+      "allowed_service_types": [
+        "STANDARD_GROUND",
+        "EXPRESS_SAVER"
+      ],
+      "approved_destinations": [
+        "IN-BLR-BENGALURU",
+        "IN-DEL-DELHI",
+        "IN-HYD-HYDERABAD",
+        "IN-PNQ-PUNE",
+        "IN-MAA-CHENNAI"
+      ]
+    },
+    {
+      "id": "PERM-202",
+      "account_id": "ACC-202",
+      "max_weight_kg": 40,
+      "allowed_domestic": true,
+      "approved_origins": [
+        "IN-DEL-DELHI",
+        "IN-BOM-MUMBAI"
+      ],
+      "allowed_international": false,
+      "allowed_payment_types": [
+        "CORPORATE_ACH"
+      ],
+      "allowed_service_types": [
+        "STANDARD_GROUND",
+        "COLD_CHAIN_STANDARD"
+      ],
+      "approved_destinations": [
+        "IN-BOM-MUMBAI",
+        "IN-CCU-KOLKATA",
+        "IN-MAA-CHENNAI",
+        "IN-BLR-BENGALURU"
+      ]
+    },
+    {
+      "id": "PERM-303",
+      "account_id": "ACC-303",
+      "max_weight_kg": 25,
+      "allowed_domestic": true,
+      "approved_origins": [
+        "IN-BLR-BENGALURU"
+      ],
+      "allowed_international": false,
+      "allowed_payment_types": [
+        "CREDIT_CARD"
+      ],
+      "allowed_service_types": [
+        "STANDARD_GROUND",
+        "EXPRESS_SAVER"
+      ],
+      "approved_destinations": [
+        "IN-BLR-BENGALURU",
+        "IN-HYD-HYDERABAD"
+      ]
+    },
+    {
+      "id": "PERM-404",
+      "account_id": "ACC-404",
+      "max_weight_kg": 100,
+      "allowed_domestic": true,
+      "approved_origins": [
+        "IN-MAA-CHENNAI"
+      ],
+      "allowed_international": true,
+      "allowed_payment_types": [
+        "CREDIT_CARD",
+        "WIRE_TRANSFER"
+      ],
+      "allowed_service_types": [
+        "STANDARD_GROUND",
+        "AIR_FREIGHT_EXPEDITED"
+      ],
+      "approved_destinations": [
+        "IN-COK-KOCHI",
+        "IN-BLR-BENGALURU",
+        "AE-DXB-DUBAI"
+      ]
+    }
+  ]
+}
